@@ -39,7 +39,7 @@ def main():
     logger.addHandler(stream_handler)
 
     # Specify the binary to upload, the start address to upload it to and the byte count to erase before uploading
-    binary = 'Namino_ROSSO_Project.bin'
+    binary = 'Namino_ROSSO_Project-rev-0002.bin'
     start_address, byte_count = 0x00000, 63000
 
     logger.info('------------------------------------')
