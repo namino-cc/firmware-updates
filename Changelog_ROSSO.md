@@ -5,6 +5,6 @@
 - Added board code identifier function
 
 **Bug Fix:**
-- RTD, TC, Load cell value and configuration3
+- RTD, TC, Load cell value and configuration
 - Change NTC table, now Beta Value 25/50 K 3950
 - Change on cold junction NTC table 
