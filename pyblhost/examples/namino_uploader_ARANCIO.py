@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-#
+# -*- coding:utf-8 -*-
+
 # Python implementation of blhost used to communicate with the NXP MCUBOOT/KBOOT bootloader.
 # Copyright (C) 2020-2021  Kristian Sloth Lauszus.
 #
@@ -23,6 +24,7 @@
 # e-mail   :  lauszus@gmail.com
 
 import logging
+import os
 
 from pyblhost import BlhostSerial
 
@@ -40,6 +42,7 @@ def main():
 
     # Specify the binary to upload, the start address to upload it to and the byte count to erase before uploading
     binary = 'Namino_ARANCIO_Project-rev-0007.bin'
+    binary = os.path.join(os.getcwd(), binary)
     start_address, byte_count = 0x00000, 63000
 
     logger.info('------------------------------------')
