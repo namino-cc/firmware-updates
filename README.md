@@ -1,9 +1,3 @@
-# ROSSO   firmware version 0.2
-
-# ARANCIO firmware version 0.7
-
-
-
 # firmware-updates
 
 This repository contains the firmware of namino rosso / arancio industrial side.
