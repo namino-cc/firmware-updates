@@ -1,3 +1,4 @@
 tqdm
 python-can
 pyserial
+wget==3.2

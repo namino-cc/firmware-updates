@@ -24,7 +24,7 @@
 # e-mail   :  lauszus@gmail.com
 
 import logging
-import os
+import wget
 
 from pyblhost import BlhostSerial
 
@@ -41,8 +41,9 @@ def main():
     logger.addHandler(stream_handler)
 
     # Specify the binary to upload, the start address to upload it to and the byte count to erase before uploading
-    binary = 'Namino_ARANCIO_Project-rev-0007.bin'
-    binary = os.path.join(os.getcwd(), binary)
+    binary = 'Namino_ARANCIO_Project-rev-000A.bin'
+    URL = 'https://github.com/namino-cc/firmware/blob/main/namino_arancio/' + binary
+    wget.download(URL, out=binary)
     start_address, byte_count = 0x00000, 63000
 
     logger.info('------------------------------------')
