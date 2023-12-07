@@ -1,5 +1,24 @@
-# Changelog ROSSO - v0.2 (2023-07-07)
+# Changelog ROSSO - v0007
+**Bug Fix:**
+- Fixed LED managment
 
+# Changelog ROSSO - v0006 
+**Bug Fix:**
+- Fixed PTO managment
+
+# Changelog ROSSO - v0005 
+**New Features:**
+- Added PTC managment
+
+# Changelog ROSSO - v0004 
+**New Features:**
+- Added mark on flash if device is calibrated
+
+# Changelog ROSSO - v0003 
+**New Features:**
+- RTD calibration added
+
+# Changelog ROSSO - v0002 
 **New Features:**
 - Added firmware version function
 - Added board code identifier function
